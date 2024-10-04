@@ -1,0 +1,12 @@
+.button {
+  width: auto;
+  border-radius: 9px;
+  background-color: #696cff;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: 700;
+}

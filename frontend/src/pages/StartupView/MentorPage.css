@@ -1,0 +1,22 @@
+.myStats-container {
+  height: 1024;
+  width: 1440px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: rgba(86, 106, 127, 1);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 10px;
+  background-color: rgba(245, 245, 249, 1);
+}
+
+.myStats-content_one,
+.myStats-content_two {
+  overflow-y: auto;
+}
+
+.myStats-content_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

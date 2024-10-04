@@ -1,0 +1,125 @@
+.job-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 242px;
+  height: 284px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  background-color: white;
+}
+
+.job-card.no-border {
+  border: none;
+  box-shadow: none;
+}
+
+.job-card button {
+  display: flex;
+}
+
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.job-container-company {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job-container-company img {
+  width: 50px;
+  height: 50px;
+  margin-top: 0;
+  border-radius: 16px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.job-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(86, 106, 127, 1);
+}
+
+.job-profession {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(86, 106, 127, 1);
+  margin-top: 0;
+}
+
+.job-card p,
+.job-card span,
+.job-description {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: rgba(117, 125, 138, 1);
+}
+
+.job-button {
+  background-color: rgba(105, 108, 255, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 87px;
+  height: 25px;
+  font-size: 10px;
+  cursor: pointer;
+  justify-content: space-around;
+}
+
+.job-button.disabled {
+  background-color: rgba(105, 108, 255, 1);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.jobButton-button_view {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.mentors-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mentor-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.more-mentors {
+  font-size: 14px;
+  color: #777;
+}
+
+.mentor-image-applied {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  justify-content: flex-start;
+}

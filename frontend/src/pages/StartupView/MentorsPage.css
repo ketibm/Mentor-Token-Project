@@ -1,0 +1,36 @@
+.mentor--container {
+  height: 1024;
+  width: 1440px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: rgba(86, 106, 127, 1);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding-left: 50px;
+  gap: 10px;
+  background-color: rgba(245, 245, 249, 1);
+}
+
+.mentor--container header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.mentor--container__content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 880px;
+}
+
+.content-one {
+  display: grid;
+}
+
+.content-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

@@ -1,0 +1,83 @@
+.profile-card {
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 290px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  color: rgba(86, 106, 127, 1);
+  position: relative;
+}
+
+.profile-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-img-container img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.profile-name h2 {
+  margin-bottom: 0;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.profile-jobs {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(105, 108, 255, 1);
+}
+
+.profile-contact {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  margin-bottom: 0;
+}
+
+.profile-email,
+.profile-phone {
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+}
+
+.editing-img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.closing-img {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

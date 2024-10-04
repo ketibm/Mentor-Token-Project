@@ -1,0 +1,97 @@
+.contact--page {
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.contact--page img {
+  width: 100%;
+  margin: 20px;
+}
+
+.contact--text {
+  position: absolute;
+  margin-left: 165px;
+  padding-top: 77px;
+}
+
+.contact--text__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact--text h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+}
+
+.contact--text p,
+.contact--text span {
+  font-size: 18px;
+  color: rgba(34, 34, 34, 1);
+  opacity: 80%;
+  margin-right: 150px;
+}
+
+.contact--text span {
+  font-weight: 600;
+}
+.contact--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact--form__input input,
+.contact--form__textarea {
+  width: 1095px;
+  font-family: "Inter", sans-serif;
+  font-size: 15.41px;
+  font-weight: 300;
+  color: rgba(86, 106, 127, 1);
+  border: 1px solid rgba(105, 108, 255, 1);
+  border-radius: 9px;
+  padding: 8.81px 26.42px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.contact--form__input input {
+  height: 53px;
+  width: 40%;
+  margin-right: 25px;
+  margin-top: 30px;
+}
+
+.contact--form__textarea {
+  width: 87%;
+  height: 187px;
+  resize: none;
+  margin-top: 33px;
+}
+
+.contact--button__container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+}
+
+.contact--text button {
+  width: 220px;
+  height: 51px;
+  margin-top: 33px;
+  border-radius: 9px;
+  padding: 8px 48px;
+  background-color: rgba(105, 108, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .contact--form__input input,
+  .contact--form__textarea {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

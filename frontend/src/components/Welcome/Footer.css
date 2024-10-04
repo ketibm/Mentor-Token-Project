@@ -1,0 +1,40 @@
+footer {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: rgba(35, 35, 35, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 80px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer--container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.footer--pages h3,
+.footer--contact h3,
+.footer--follow h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer--pages p,
+.footer--contact p {
+  font-family: "Jakarta Sans", sans-serif;
+}
+
+.footer--follow a {
+  margin-right: 16px;
+}
+
+.footer--pages a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer--contact a {
+  color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,174 @@
+.search-bar img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-left: -100px;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.job-list,
+.statistics-chart {
+  padding: 20px;
+}
+
+.right-panel,
+.left-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.bestMentor-list {
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 640px;
+  margin-top: 10px;
+}
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filters button {
+  color: rgba(86, 106, 127, 1);
+
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.filters button.active {
+  color: rgba(105, 108, 255, 1);
+  text-decoration: underline;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+  color: rgba(86, 106, 127, 1);
+  margin-top: 10px;
+}
+
+.bestMentor-list ul,
+.job-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bestMentor-list li,
+.job-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bestMentor-list li {
+  border-bottom: 1px solid #eee;
+}
+
+.job-list li:hover,
+.bestMentor-list li:hover,
+.bestMentor-list li.active {
+  background: linear-gradient(rgba(140, 136, 150, 0.3), rgba(255, 255, 255, 1));
+}
+
+.mentor-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: rgba(139, 135, 149, 1);
+  flex: 1;
+  margin-left: 10px;
+}
+
+.mentor-image-wrapper {
+  display: flex;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: border-color 0.3s ease;
+}
+
+.bestMentor-list li:hover .mentor-image-wrapper,
+.bestMentor-list li.active .mentor-image-wrapper {
+  background: linear-gradient(rgba(105, 108, 255, 1), rgba(177, 119, 255, 1));
+  width: 100px;
+  height: 100px;
+}
+
+.bestMentor-list {
+  margin-bottom: -10px;
+}
+
+.mentor-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+.mentor-info__jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 20%;
+  gap: 5px;
+}
+
+.mentor-info__jobs-number {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(105, 108, 255, 1);
+}
+
+.mentor-info__jobs-text {
+  font-size: 12px;
+  color: rgba(86, 106, 127, 1);
+}
+
+.twoArrows {
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-right: 10px;
+}
+
+.statistics-chart {
+  width: 600px;
+
+  text-align: start;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-chart h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgba(86, 106, 127, 1);
+  margin-bottom: 5px;
+}
+
+.statistics-chart p {
+  font-size: 16px;
+  color: rgba(170, 180, 191, 1);
+}
+
+.statistics-chart .recharts-default-tooltip {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

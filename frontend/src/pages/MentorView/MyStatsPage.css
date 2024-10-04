@@ -1,0 +1,34 @@
+.myStats-container {
+  height: 1024;
+  width: 1440px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: rgba(86, 106, 127, 1);
+  background-color: rgba(245, 245, 249, 1);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding-left: 60px;
+}
+
+.myStats-container header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.myStats-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.myStats-content_one {
+  display: grid;
+}
+
+.myStats-content_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}

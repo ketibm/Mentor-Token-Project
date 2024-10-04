@@ -1,0 +1,152 @@
+.register--page {
+  position: relative;
+  font-family: "Manrope", sans-serif;
+}
+
+.register--page__form {
+  position: absolute;
+  left: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 15%;
+}
+
+.register--page__form h1 {
+  display: flex;
+  align-items: start;
+  font-size: 34px;
+  font-weight: 700;
+  color: rgba(86, 106, 127, 1);
+}
+
+.register--form__button {
+  display: flex;
+  width: 540px;
+  height: 66px;
+  border-radius: 8px;
+  font-size: 16px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.register--button__startup,
+.register--button__mentor {
+  color: rgba(105, 108, 255, 1);
+  width: 270px;
+  height: 50px;
+  font-weight: 500;
+  color: white;
+  justify-content: center;
+}
+
+.register--button__mentor {
+  background-color: rgba(245, 245, 249, 1);
+  color: rgba(86, 106, 127, 1);
+}
+
+.register--button__startup {
+  background-color: rgba(245, 245, 249, 1);
+  color: rgba(105, 108, 255, 1);
+}
+
+.register--button__startup.active,
+.register--button__mentor.active {
+  background-color: rgba(105, 108, 255, 1);
+  color: white;
+}
+
+.register--page__form input {
+  margin-bottom: 40px;
+  display: flex;
+  width: 520px;
+  height: 50px;
+  border-radius: 9px;
+  padding-left: 15px;
+  border: 2px solid rgba(86, 106, 127, 1);
+  background-color: white;
+}
+
+.register--page__form input:focus {
+  border-color: rgba(105, 108, 255, 1);
+  outline: none;
+}
+
+.register--form__label {
+  position: absolute;
+  padding: 0 10px;
+  left: 25px;
+  line-height: 30%;
+  background-color: white;
+  color: rgba(105, 108, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.register--form__email,
+.register--form__password,
+.register--form__name {
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid rgba(86, 106, 127, 1);
+}
+
+.register--form__text {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(170, 180, 191, 1);
+  padding-left: 9px;
+}
+
+.register--form__reset {
+  background-color: rgba(211, 211, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  width: 540px;
+  height: 66px;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: not-allowed;
+}
+
+.register--form__continue {
+  color: rgba(255, 255, 255, 1);
+  width: 540px;
+  height: 66px;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.register--form__continue.active {
+  background-color: rgba(105, 108, 255, 1);
+  cursor: pointer;
+}
+
+.register--form__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register--form__login p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(86, 106, 127, 1);
+}
+
+.register--form__login span {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(105, 108, 255, 1);
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.reset-info-message {
+  margin-bottom: 30px;
+}

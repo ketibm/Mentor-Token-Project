@@ -1,0 +1,46 @@
+.about--page {
+  font-family: "Inter", sans-serif;
+}
+
+.about--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about--container__text {
+  position: absolute;
+  text-align: center;
+  color: rgba(34, 34, 34, 1);
+  font-size: 18px;
+}
+
+.about--container__text h1 {
+  font-size: 48px;
+}
+
+.about--container__button {
+  white-space: nowrap;
+  width: 200px;
+  height: 51px;
+  margin: 20px;
+  gap: 16px;
+  font-size: 16px;
+  padding: 0 50px 0 0;
+}
+
+.about--container img {
+  width: 100%;
+  margin: 20px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.user--card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  margin: 155px 250px;
+}

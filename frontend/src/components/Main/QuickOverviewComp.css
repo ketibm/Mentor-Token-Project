@@ -1,0 +1,48 @@
+.quick-container {
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(245, 245, 249, 1);
+  box-shadow: none;
+}
+
+.quick-container-active {
+  background-color: rgba(105, 108, 255, 1) !important;
+  border-radius: 6px;
+  height: 70px;
+}
+
+.quick-container-active p,
+.quick-container-active span {
+  color: white !important;
+}
+
+.quick-container {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(86, 106, 127, 1);
+  padding-top: 0;
+}
+
+.quick-container span {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(64, 77, 97, 1);
+  margin-top: 5px;
+}
+
+.quick-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-container li {
+  padding-left: 10%;
+  background-color: white;
+  border-radius: 6px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+.quick-container-active li {
+  color: white;
+}

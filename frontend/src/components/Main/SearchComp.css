@@ -1,0 +1,27 @@
+.search-bar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  max-height: 70px;
+  overflow-y: auto;
+  z-index: 1000;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.search-result-item {
+  padding: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.search-result-item:hover {
+  color: rgba(105, 108, 255, 1);
+}

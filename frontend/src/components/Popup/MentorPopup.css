@@ -1,0 +1,90 @@
+.mentorPopup-container {
+  font-family: "Manrope", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 500px;
+  padding: 50px;
+  height: 570px;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mentorPopup__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mentorPopup__title h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: rgba(86, 106, 127, 1);
+}
+
+.mentorPopup__title img {
+  display: flex-end;
+  text-align: end;
+  justify-content: space-between;
+}
+
+.mentorPopup-container p {
+  color: rgba(170, 180, 191, 1);
+  margin-bottom: 80px;
+}
+
+.mentorPopup-container input,
+.user-form__input {
+  margin-bottom: 40px;
+  width: 480px;
+  height: 40px;
+  border-radius: 9px;
+  padding-left: 15px;
+  border: 2px solid rgba(86, 106, 127, 1);
+}
+
+.mentorPopup-container input:focus {
+  border-color: rgba(105, 108, 255, 1);
+  outline: none;
+}
+
+.user-form input::placeholder,
+.mentorPopup__input::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(156, 154, 165, 1);
+}
+
+.user-form {
+  display: flex;
+  width: 50%;
+  gap: 10px;
+}
+
+.mentorPopup__label,
+.user-form__label-name,
+.user-form__label-surname {
+  position: absolute;
+  left: 37%;
+  line-height: 50%;
+  background-color: white;
+  color: rgba(105, 108, 255, 1);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.user-form__label-surname {
+  left: 51.5%;
+}
+
+.mentorPopup__button {
+  background-color: rgba(105, 108, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  width: 505px;
+  height: 60px;
+  justify-content: center;
+}

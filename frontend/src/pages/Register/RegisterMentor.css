@@ -1,0 +1,165 @@
+.mentor--page {
+  position: relative;
+  font-family: "Manrope", sans-serif;
+}
+
+.mentor--page__form {
+  position: absolute;
+  left: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 13%;
+}
+.mentor--page__form h1 {
+  display: flex;
+  align-items: start;
+  font-size: 34px;
+  font-weight: 700;
+  color: rgba(86, 106, 127, 1);
+}
+
+.photo-mentor {
+  display: flex;
+  justify-content: center;
+}
+
+.mentor--img {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.photo--mentor {
+  position: absolute;
+  left: 50%;
+  top: 8%;
+}
+
+.uploaded-mentor {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.skills-container,
+.mentor--page__form input {
+  margin-bottom: 30px;
+  display: flex;
+  width: 520px;
+  height: 40px;
+  border-radius: 9px;
+  padding-left: 15px;
+  border: 2px solid rgba(86, 106, 127, 1);
+  background-color: white;
+}
+
+textarea {
+  font-family: "Manrope", sans-serif;
+  padding-top: 15px;
+  display: flex;
+  width: 520px;
+  margin-top: 30px;
+  padding-left: 15px;
+  border-radius: 9px;
+  border: 2px solid rgba(86, 106, 127, 1);
+}
+
+textarea:focus {
+  border-color: rgba(105, 108, 255, 1);
+  outline: none;
+}
+
+.mentor--page__form input:focus {
+  border-color: rgba(105, 108, 255, 1);
+  outline: none;
+}
+
+.mentor--form__frame {
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid (211, 211, 255, 1);
+}
+
+.mentor--form__frame::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(156, 154, 165, 1);
+}
+
+.mentor--form__label {
+  position: absolute;
+  padding: 0 10px;
+  left: 25px;
+  line-height: 30%;
+  background-color: white;
+  color: rgba(105, 108, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mentor--form__button {
+  background-color: rgba(105, 108, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  width: 550px;
+  height: 50px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.mentor--form__policy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.mentor--form__policy p {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(86, 106, 127, 1);
+}
+
+.checkbox-container {
+  position: relative;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.checkbox-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.check-icon {
+  position: absolute;
+  left: 0;
+}
+
+.mentor--form__policy span {
+  font-size: 10px;
+  font-weight: 500;
+  color: rgba(105, 108, 255, 1);
+  text-decoration: underline;
+}
+.back-button {
+  background-color: rgba(105, 108, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: -14%;
+  right: 0;
+}
+.skills-container {
+  width: 520px;
+  height: auto;
+  border-radius: 9px;
+  border: 2px solid rgba(86, 106, 127, 1);
+}

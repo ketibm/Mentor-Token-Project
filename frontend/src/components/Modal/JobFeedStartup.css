@@ -1,0 +1,81 @@
+.jobFeedStartup-container {
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.filters-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.sort-container_left {
+  display: flex;
+  gap: 20px;
+}
+
+.sort-container_right {
+  padding-right: 200px;
+  display: flex;
+  gap: 20px;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 250px;
+  height: 45px;
+  border: 1px solid transparent;
+  justify-content: space-around;
+  background: white;
+  border-radius: 12px;
+}
+
+.sort-container_filter {
+  display: flex;
+  width: 100px;
+  height: 45px;
+  border: 1px solid transparent;
+  background: white;
+  border-radius: 12px;
+  align-items: center;
+  position: relative;
+}
+
+.sort-label {
+  margin-left: 10px;
+  margin-right: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(86, 106, 127, 1);
+}
+
+.sort-select {
+  padding: 5px 10px;
+  border: 1px solid white;
+  border: none;
+  font-size: 14px;
+  color: rgba(170, 180, 191, 1);
+  appearance: none;
+  box-sizing: border-box;
+}
+
+.sort-select:focus {
+  outline: none;
+  border-color: rgba(86, 106, 127, 1);
+}
+
+.triangle-icon {
+  pointer-events: none;
+}
+
+.jobFeedStartup-container h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(64, 77, 97, 1);
+}
+
+.select-wrapper {
+  position: relative;
+}

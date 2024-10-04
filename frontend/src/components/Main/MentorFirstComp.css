@@ -1,0 +1,48 @@
+.firstMentor-container {
+  font-family: "Manrope", sans-serif;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  height: 185px;
+  padding: 30px;
+  padding-left: 50px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.firstMentor-container.blur-background {
+  filter: blur(5px);
+  opacity: 1;
+}
+
+.firstMentor-left h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(64, 77, 97, 1);
+}
+
+.firstMentor-left p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(64, 77, 97, 1);
+  padding-bottom: 30px;
+}
+
+.firstMentor-right img {
+  margin-top: -40%;
+  margin-left: 100%;
+}
+
+.mentorPopup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}

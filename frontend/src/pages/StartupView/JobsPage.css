@@ -1,0 +1,39 @@
+.jobs--container {
+  height: 1024;
+  width: 1440px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: rgba(86, 106, 127, 1);
+  background-color: rgba(245, 245, 249, 1);
+  display: grid;
+  padding-left: 50px;
+  gap: 10px;
+}
+
+.jobs--container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobs--container h1 {
+  font-weight: 500px;
+  font-size: 24px;
+  color: rgba(64, 77, 97, 1);
+  padding-left: 50px;
+}
+
+.jobs--container_button {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 80px;
+  margin-top: 60px;
+}
+
+.create-job-button {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  width: 180px;
+  height: 40px;
+}

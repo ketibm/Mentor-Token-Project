@@ -1,0 +1,87 @@
+.login--page {
+  position: relative;
+  font-family: "Manrope", sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.login--page__form {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login--page__form h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: rgba(86, 106, 127, 1);
+}
+
+.login--page__form p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(170, 180, 191, 1);
+  margin-bottom: 80px;
+}
+
+.login--page__form input {
+  margin-bottom: 40px;
+  display: flex;
+  width: 520px;
+  height: 50px;
+  border-radius: 9px;
+  padding-left: 15px;
+  border: 2px solid rgba(86, 106, 127, 1);
+  background-color: white;
+}
+
+.login--page__form input:focus {
+  border-color: rgba(105, 108, 255, 1);
+  outline: none;
+}
+
+.login--form__label {
+  position: absolute;
+  padding: 0 10px;
+  left: 25px;
+  line-height: 30%;
+  background-color: white;
+  color: rgba(105, 108, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.login--form__input::placeholder {
+  color: rgba(86, 106, 127, 1);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.login--form__button {
+  margin-top: 70px;
+  width: 540px;
+  height: 65px;
+  border-radius: 9px;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.login--form__register {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login--form__register p {
+  color: rgba(86, 106, 127, 1);
+}
+
+.login--form__register span {
+  font-weight: 600;
+  color: rgba(105, 108, 255, 1);
+}

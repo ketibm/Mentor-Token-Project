@@ -1,0 +1,94 @@
+.dashboard--container {
+  width: 240px;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Manrope", sans-serif;
+  opacity: 0.12px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 6px 0px rgba(67, 89, 113, 1);
+}
+
+.dashboard--container__logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 52px;
+  padding-bottom: 90px;
+  width: 228px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.dashboard--container__logo img {
+  width: 37px;
+  height: 37px;
+}
+
+.arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 220px;
+  top: 52px;
+}
+
+.arrow--copy {
+  position: absolute;
+  left: 40px;
+  top: 22px;
+  transform: rotate(180deg);
+}
+
+.dashboard--container__logo h4 {
+  font-weight: 600px;
+  font-size: 20px;
+  color: rgba(86, 106, 127, 1);
+  margin-left: 10px;
+}
+.dashboard--container__dash-active,
+.dashboard--container__dash {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: rgba(86, 106, 127, 1);
+}
+
+.dashboard--container__dash-active {
+  color: rgba(105, 108, 255, 1);
+  background-color: rgba(105, 108, 255, 0.16);
+  width: 170px;
+  height: 25px;
+  border-radius: 6px;
+}
+
+.dash--icon {
+  color: rgba(105, 108, 255, 1);
+}
+
+.rectangle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 220px;
+}
+
+.dashboard--container__logout {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 52px 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.dashboard--container__logout p {
+  color: rgba(105, 108, 255, 1);
+  font-weight: 500;
+}
