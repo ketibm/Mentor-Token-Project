@@ -57,7 +57,7 @@
 
   ---
 
-  ## Contact
+## Contact
 For any questions or feedback, feel free to contact me at: k.matenicharska@outlook.com
 
 
