@@ -94,11 +94,9 @@ const JobPopup = ({
       setModalMessage("You have already applied for this job.");
       setShowModal(true);
       setShowJobCard(false);
-      console.log("Modal should appear");
       return;
     }
-    console.log("Modal Message:", modalMessage);
-    console.log("Show Modal State:", showModal);
+
     try {
       const response = await fetch("http://localhost:8000/api/app", {
         method: "POST",

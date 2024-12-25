@@ -45,7 +45,7 @@ const ContactPage = () => {
     setIsSubmitting(true);
 
     try {
-      console.log("Sending fetch request...");
+      console.log("Before sending fetch request...");
       const response = await fetch(
         "http://localhost:8000/api/email/receive-email",
         {
@@ -56,7 +56,7 @@ const ContactPage = () => {
           body: JSON.stringify(formData),
         }
       );
-
+      console.log("Fetch request completed.");
       if (!response.ok) {
         const errorData = await response.json();
         console.error("Error response:", errorData);
@@ -64,26 +64,22 @@ const ContactPage = () => {
       }
       const data = await response.json();
       console.log("Response data:", data);
+      setModalMessage("Your message has been sent successfully!");
+      setShowModal(true);
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Error sending message:", error);
       setModalMessage(
         "There was an error sending your message. Please try again later."
       );
+      setShowModal(true);
+    } finally {
+      setIsSubmitting(false);
     }
   };
-
   const closeModal = () => {
     setShowModal(false);
   };
-
-  useEffect(() => {
-    if (showModal) {
-      const timer = setTimeout(() => {
-        setShowModal(false);
-      }, 3000);
-      return () => clearTimeout(timer);
-    }
-  }, [showModal]);
 
   return (
     <div className="contact--page">

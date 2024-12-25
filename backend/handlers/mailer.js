@@ -99,9 +99,7 @@ const resetPasswordByEmail = async (req, res) => {
 };
 
 const receiveEmail = async (req, res) => {
-  console.log("Received email data:", req.body);
-  console.log("Received request:", req.method, req.path);
-  console.log("Received a request to /api/email/receive-email:", req.body);
+  console.log("Received request:", req.body);
   const { name, email, message } = req.body;
 
   if (!name || !email || !message) {
@@ -110,7 +108,7 @@ const receiveEmail = async (req, res) => {
   }
 
   const mailOptions = {
-    from: email,
+    from: process.env.EMAIL_USER,
     to: process.env.EMAIL_USER,
     subject: `New Contact Form Message from ${name}`,
     text: `You have received a new message from ${name} (${email}):\n\n${message}`,
@@ -118,7 +116,7 @@ const receiveEmail = async (req, res) => {
 
   try {
     console.log("Sending email with options:", mailOptions);
-    await transporter.sendMail(mailOptions);
+    await sendEmail(mailOptions);
     res.status(200).json({ message: "Email sent successfully." });
   } catch (error) {
     console.error("Error sending email: ", error.message);
