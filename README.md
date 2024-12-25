@@ -55,3 +55,10 @@
 - **cors**: Enabling cross-origin resource sharing.
 - **EJS**: Template rendering engine.
 
+  ---
+
+  ## Contact
+For any questions or feedback, feel free to contact me at: k.matenicharska@outlook.com
+
+
+
