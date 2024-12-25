@@ -42,7 +42,6 @@
 - **React**: Component-based library for building user interfaces.
 - **Vite**: Fast build tool for development and bundling.
 - **React Router**: For client-side routing.
-- **Axios**: For API requests.
 - **CSS/CSS Modules**: For styling the application.
 - **Environment Variables**: Configuration management via `.env` files.
 
